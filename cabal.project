@@ -1,3 +1,0 @@
-packages:
-    porcupine/porcupine-core/*.cabal
-    pipeline/*.cabal

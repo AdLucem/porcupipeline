@@ -9,7 +9,7 @@
 - Type system and type safety. I can't provide a very concrete example of this, but let's just say that... you know those weird-ass runtime errors you'll discover in python when you're 3-4ths of the way through a 2-hour processing task? Yeah. Those don't happen in Haskell. Your program does precisely what you tell it to do, if it compiles.
 
 
-## Contextual Word Vectorization Pipeline
+## Word Vectorization Pipeline
 
 Vectorize is a function.
 
@@ -63,4 +63,6 @@ analyseOneUser :: PTask
 analyseOneUser =
 loadData userFile -> computeAnalysis -> writeData analysisFile
 ```
+
+
 
